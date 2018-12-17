@@ -22,13 +22,6 @@
         android:layout_gravity="center"
         android:text="가까운 편의점 찾기"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btInfor"
-        android:layout_gravity="center"
-        android:text="타슈 정거장 조회"/>
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,6 +49,13 @@
         android:layout_gravity="center"
         android:id="@+id/btMusic"
         android:text="노래듣기"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btInfor"
+        android:layout_gravity="center"
+        android:text="타슈 정거장 조회"/>
 
 
 </LinearLayout>

@@ -1,5 +1,5 @@
 git add --all
 
-git commit -m "finish"
+git commit -m "Finish"
 
 git push -u origin master
