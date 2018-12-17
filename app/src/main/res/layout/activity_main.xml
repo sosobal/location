@@ -18,5 +18,22 @@
         android:id="@+id/btInfor"
         android:text="타슈 정거장 조회"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tv"
+        android:id="@+id/tvRecog"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btConnect"
+        android:text="연락하기"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextVoice"
+        android:hint="textvoie"/>
+
 
 </LinearLayout>
