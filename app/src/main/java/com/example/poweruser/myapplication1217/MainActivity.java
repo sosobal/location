@@ -54,6 +54,15 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
             }
         });
 
+        Button btMusic = (Button) findViewById(R.id.btMusic);
+        btMusic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MusicActivity.class);
+                startActivity(intent);
+            }
+        });
+
         tvRecog = (TextView) findViewById(R.id.tvRecog);
         tts = new TextToSpeech(this, this);
 

@@ -29,6 +29,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".LocationActivity"></activity>
+        <activity android:name=".MusicActivity"></activity>
+        <service android:name=".MyService"></service>
     </application>
 
 </manifest>
